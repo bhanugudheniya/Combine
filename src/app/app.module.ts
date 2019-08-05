@@ -34,6 +34,8 @@ import { ReadmoreuserComponent } from './readmoreuser/readmoreuser.component';
 import { ReportuserComponent } from './reportuser/reportuser.component';
 import { ResumeuserComponent } from './resumeuser/resumeuser.component';
 import { SuggestionuserComponent } from './suggestionuser/suggestionuser.component';
+import { AccessComponent } from './access/access.component';
+import { AccessregisterComponent } from './accessregister/accessregister.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { SuggestionuserComponent } from './suggestionuser/suggestionuser.compone
     ReadmoreuserComponent,
     ReportuserComponent,
     ResumeuserComponent,
-    SuggestionuserComponent
+    SuggestionuserComponent,
+    AccessComponent,
+    AccessregisterComponent
   ],
   imports: [
     BrowserModule,

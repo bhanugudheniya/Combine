@@ -13,7 +13,6 @@ import { HotsComponent } from './hots/hots.component';
 import { TestComponent } from './test/test.component';
 import { SuggestionComponent } from './suggestion/suggestion.component';
 import { ErrorComponent } from './error/error.component';
-// User
 import { SidebaruserComponent } from './sidebaruser/sidebaruser.component';
 import { DashboarduserComponent } from './dashboarduser/dashboarduser.component';
 import { EventuserComponent } from './eventuser/eventuser.component';
@@ -31,6 +30,8 @@ import { ReadmoreuserComponent } from './readmoreuser/readmoreuser.component';
 import { ReportuserComponent } from './reportuser/reportuser.component';
 import { ResumeuserComponent } from './resumeuser/resumeuser.component';
 import { SuggestionuserComponent } from './suggestionuser/suggestionuser.component';
+import { AccessComponent } from './access/access.component';
+import { AccessregisterComponent } from './accessregister/accessregister.component';
 
 
 const routes: Routes = [
@@ -46,7 +47,7 @@ const routes: Routes = [
   {path:'add',component:AddComponent},
   {path:'test',component:TestComponent},
   {path:'suggestion', component:SuggestionComponent},
-  {path:'**', component:ErrorComponent},
+  // {path:'**', component:ErrorComponent},
   {path:'sidebaruser', component:SidebaruserComponent},
   {path:'dashboarduser', component:DashboarduserComponent},
   {path:'eventuser', component:EventuserComponent},
@@ -64,6 +65,8 @@ const routes: Routes = [
   {path:'reportuser', component:ReportuserComponent},
   {path:'resumeuser', component:ResumeuserComponent},
   {path:'suggestionuser', component:SuggestionuserComponent},
+  {path:'access', component:AccessComponent},
+  {path:'accessregister', component:AccessregisterComponent}  
 
 ];
 
