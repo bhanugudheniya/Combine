@@ -1,0 +1,29 @@
+.card {
+    margin-right: 5%;
+}
+
+.container {
+    margin-top: 3%;
+}
+
+
+/* //////////////////////////////DropDown////////////////////// */
+
+
+/* CSS */
+
+.list,
+.element:hover {
+    transform: scale(1.1);
+    background-color: #61aab6;
+}
+
+.element:hover {
+    border-radius: 30px;
+}
+
+.element {
+    background-color: #17a2b8;
+    background-color: #0c91a5;
+    color: white;
+}
